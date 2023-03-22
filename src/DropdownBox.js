@@ -22,7 +22,7 @@ const DropdownBox = () => {
                </Dropdown.Toggle>
 
               <Dropdown.Menu>
-              <Dropdown.Item onClick={() => handleLanguageChange("fr")}>English(default)</Dropdown.Item>
+              <Dropdown.Item onClick={() => handleLanguageChange("fr")}>English(default) to French</Dropdown.Item>
               <Dropdown.Item >Hindi</Dropdown.Item>
               <Dropdown.Item >Tamil</Dropdown.Item>
               </Dropdown.Menu>
